@@ -29,7 +29,7 @@ sudo docker-compose up
 | **PRODUCTION**                  | Flag to denote whether the server is running in production. Default value is `false`            |
 | **MAX_REQUESTS**                | Maximum no. of concurrent requests supported by the server. Default value is 1000               |
 | **REQUEST_CLEAN_UP_CHECK**      | Time interval after which error request app context cleanup has to be done. Default value is 2m |
-| **Database**                    | All information related to database are stored in sample.env file                               |
+| **DATABASE**                    | All information related to database are stored in sample.env file                               |
 
 ### Endpoints
 - Getting all the available hotels - ```/hotel```
